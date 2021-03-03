@@ -239,6 +239,10 @@ sys.vendor.shutdown.waittime=500
 # Telephony
 telephony.active_modems.max_count=2
 
+# SoC
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SM8250
+
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
