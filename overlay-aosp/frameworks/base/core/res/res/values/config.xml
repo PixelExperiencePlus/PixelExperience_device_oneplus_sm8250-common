@@ -76,6 +76,4 @@
     <!-- Display has physical cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>
  
-    <!-- Whether to force enable multi resolution configuration for camera -->
-    <bool name="config_forceMultiResolution">true</bool>
 </resources>
