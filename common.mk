@@ -23,6 +23,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/sm8250-common/sm8250-common-vendor.mk)
 
+# Inherit OOS Camera & gallery packages
+$(call inherit-product, vendor/oneplus/camera/sm8250/config.mk)
+
 # Additional native libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
@@ -33,6 +36,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-aosp
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
+
+PRODUCT_PACKAGES += \
+    OnePlusCameraOverlay \
+    OnePlusGalleryOverlay
 
 # AOSP Recovery
 TARGET_USES_AOSP_RECOVERY := true
@@ -196,6 +203,7 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
+    libcamera2ndk_vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 # Common init scripts
@@ -218,6 +226,7 @@ PRODUCT_PACKAGES += \
     init.qcom.factory.rc \
     init.qcom.post_boot.sh \
     init.qcom.rc \
+    init.oneplus.camera.rc \
     init.qcom.sdio.sh \
     init.qcom.sh \
     init.qcom.usb.rc \
@@ -317,7 +326,9 @@ PRODUCT_PACKAGES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
+    libhidltransport \
     libhidltransport.vendor \
+    libhwbinder \
     libhwbinder.vendor
 
 # HotwordEnrollement app permissions
