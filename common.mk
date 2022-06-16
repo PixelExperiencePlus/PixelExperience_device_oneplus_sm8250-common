@@ -289,6 +289,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapper@4.0.vendor
 
+# Enable incrementalfs
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.incremental.enable=yes
+
 # Doze
 PRODUCT_PACKAGES += \
     OnePlusDoze
