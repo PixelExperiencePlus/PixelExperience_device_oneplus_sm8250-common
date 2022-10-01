@@ -51,7 +51,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS += \
 				  LLVM=1 \
 				  LLVM_IAS=1 \
 				  HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
-TARGET_KERNEL_CLANG_VERSION := cosmic
+TARGET_KERNEL_CLANG_VERSION := ZyC
 TARGET_KERNEL_CONFIG := snowcone_defconfig
 TARGET_KERNEL_SOURCE := kernel/oneplus/sm8250
 
