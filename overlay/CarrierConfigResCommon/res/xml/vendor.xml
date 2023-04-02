@@ -1363,7 +1363,10 @@
         <boolean name="identify_high_definition_calls_in_call_log_bool" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
         <string name="carrier_name_string">China Mobile</string>
+        <string name="carrier_name_string_zh-rCN">中国移动</string>
+        <string name="carrier_name_string_zh-rTW">中國移動</string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="support_video_conference_call_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="false" />
@@ -1409,6 +1412,8 @@
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
         <boolean name="carrier_name_override_bool" value="true" />
         <string name="carrier_name_string">China Unicom</string>
+        <string name="carrier_name_string_zh-rCN">中国联通</string>
+        <string name="carrier_name_string_zh-rTW">中國聯通</string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="config_update_volte_icon" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
@@ -1470,7 +1475,10 @@
         <boolean name="identify_high_definition_calls_in_call_log_bool" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
         <string name="carrier_name_string">China Mobile</string>
+        <string name="carrier_name_string_zh-rCN">中国移动</string>
+        <string name="carrier_name_string_zh-rTW">中國移動</string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="support_video_conference_call_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="false" />
@@ -1522,6 +1530,10 @@
         </string-array>
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Telecom</string>
+        <string name="carrier_name_string_zh-rCN">中国电信</string>
+        <string name="carrier_name_string_zh-rTW">中國電信</string>
         <boolean name="config_auto_retry_cfu_bool" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="allow_add_call_during_video_call" value="false" />
@@ -1566,6 +1578,10 @@
         <boolean name="config_hide_vt_callforward_option" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Telecom</string>
+        <string name="carrier_name_string_zh-rCN">中国电信</string>
+        <string name="carrier_name_string_zh-rTW">中國電信</string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="vilte_data_is_metered_bool" value="false" />
         <boolean name="config_enable_video_crbt" value="true" />
@@ -1592,6 +1608,8 @@
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
         <boolean name="carrier_name_override_bool" value="true" />
         <string name="carrier_name_string">China Unicom</string>
+        <string name="carrier_name_string_zh-rCN">中国联通</string>
+        <string name="carrier_name_string_zh-rTW">中國聯通</string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="config_update_volte_icon" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
@@ -1650,6 +1668,10 @@
         <boolean name="identify_high_definition_calls_in_call_log_bool" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Mobile</string>
+        <string name="carrier_name_string_zh-rCN">中国移动</string>
+        <string name="carrier_name_string_zh-rTW">中國移動</string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="support_video_conference_call_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="false" />
@@ -1717,6 +1739,10 @@
         <boolean name="identify_high_definition_calls_in_call_log_bool" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Mobile</string>
+        <string name="carrier_name_string_zh-rCN">中国移动</string>
+        <string name="carrier_name_string_zh-rTW">中國移動</string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="support_video_conference_call_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="false" />
@@ -1757,6 +1783,8 @@
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
         <boolean name="carrier_name_override_bool" value="true" />
         <string name="carrier_name_string">China Unicom</string>
+        <string name="carrier_name_string_zh-rCN">中国联通</string>
+        <string name="carrier_name_string_zh-rTW">中國聯通</string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="config_update_volte_icon" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
@@ -1809,6 +1837,10 @@
         </string-array>
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Telecom</string>
+        <string name="carrier_name_string_zh-rCN">中国电信</string>
+        <string name="carrier_name_string_zh-rTW">中國電信</string>
         <boolean name="config_auto_retry_cfu_bool" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="allow_add_call_during_video_call" value="false" />
@@ -1905,7 +1937,10 @@
         <boolean name="identify_high_definition_calls_in_call_log_bool" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
         <string name="carrier_name_string">China Broadcasting</string>
+        <string name="carrier_name_string_zh-rCN">中国广电</string>
+        <string name="carrier_name_string_zh-rTW">中國廣電</string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="support_video_conference_call_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="false" />
@@ -1946,6 +1981,8 @@
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
         <boolean name="carrier_name_override_bool" value="true" />
         <string name="carrier_name_string">China Unicom</string>
+        <string name="carrier_name_string_zh-rCN">中国联通</string>
+        <string name="carrier_name_string_zh-rTW">中國聯通</string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="config_update_volte_icon" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
