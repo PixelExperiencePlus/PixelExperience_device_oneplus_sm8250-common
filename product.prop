@@ -17,3 +17,6 @@ persist.camera.oem.package=com.oneplus.camera
 
 # Oplus Linearmotor service
 persist.sys.service.enable_oplus_linearmotor=true
+
+# Max cached app processes in system, overrides "config_customizedMaxCachedProcesses"
+persist.sys.fw.bg_apps_limit=96
