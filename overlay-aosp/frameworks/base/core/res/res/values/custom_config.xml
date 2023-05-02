@@ -65,4 +65,11 @@
 
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/devices/virtual/oplus_chg/battery/voocchg_ing</string>
+
+    <!-- Ignore post running notifications for selected apps -->
+    <string-array name="config_postNotificationIgnoredApps" translatable="false">
+    <item>com.oneplus.camera</item>
+    <item>com.oplus.camera</item>
+    </string-array>
+
 </resources>
