@@ -18,4 +18,10 @@
     <!-- Wifi driver supports IEEE80211AX for softap -->
     <bool name="config_wifiSoftapIeee80211axSupported">true</bool>
 
+    <!-- boolean indicating whether the WiFi chipset has 6GHz band support -->
+    <bool name="config_wifi6ghzSupport">true</bool>
+
+    <!-- Wifi driver supports 6GHz band for softap when chip support 6GHz -->
+    <bool name="config_wifiSoftap6ghzSupported">true</bool>
+
 </resources>
