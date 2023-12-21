@@ -83,9 +83,6 @@ on early-boot
 
 on boot
     write /dev/cpuset/audio-app/cpus 1-2
-    # set default schedTune value for camera-daemon
-    write /dev/stune/camera-daemon/schedtune.prefer_idle 1
-    write /dev/stune/camera-daemon/schedtune.boost 0
     #USB controller configuration
     setprop vendor.usb.rndis.func.name "gsi"
     setprop vendor.usb.rmnet.func.name "gsi"
